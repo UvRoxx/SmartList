@@ -3,10 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		106DA948259E6795004FACA9 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DA947259E6795004FACA9 /* ItemViewController.swift */; };
+		106DA952259E87DE004FACA9 /* Category.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DA951259E87DE004FACA9 /* Category.swift */; };
+		106DA955259E8871004FACA9 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 106DA954259E8871004FACA9 /* Item.swift */; };
 		10B51F56259E5D2200753DD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B51F55259E5D2200753DD2 /* AppDelegate.swift */; };
 		10B51F58259E5D2200753DD2 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B51F57259E5D2200753DD2 /* SceneDelegate.swift */; };
 		10B51F5A259E5D2200753DD2 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10B51F59259E5D2200753DD2 /* CategoryViewController.swift */; };
@@ -14,9 +17,14 @@
 		10B51F60259E5D2200753DD2 /* SmartList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 10B51F5E259E5D2200753DD2 /* SmartList.xcdatamodeld */; };
 		10B51F62259E5D2400753DD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 10B51F61259E5D2400753DD2 /* Assets.xcassets */; };
 		10B51F65259E5D2400753DD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 10B51F63259E5D2400753DD2 /* LaunchScreen.storyboard */; };
+		F5765FC5C75D1D4BFEC6FC2C /* Pods_SmartList.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D70F289E17B02881D97AC09 /* Pods_SmartList.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044175251ABBAF11B5E5D524 /* Pods-SmartList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartList.debug.xcconfig"; path = "Target Support Files/Pods-SmartList/Pods-SmartList.debug.xcconfig"; sourceTree = "<group>"; };
+		106DA947259E6795004FACA9 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
+		106DA951259E87DE004FACA9 /* Category.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Category.swift; sourceTree = "<group>"; };
+		106DA954259E8871004FACA9 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
 		10B51F52259E5D2100753DD2 /* SmartList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		10B51F55259E5D2200753DD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		10B51F57259E5D2200753DD2 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +34,8 @@
 		10B51F61259E5D2400753DD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		10B51F64259E5D2400753DD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		10B51F66259E5D2400753DD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		51B4681E131C61587CBA5946 /* Pods-SmartList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SmartList.release.xcconfig"; path = "Target Support Files/Pods-SmartList/Pods-SmartList.release.xcconfig"; sourceTree = "<group>"; };
+		5D70F289E17B02881D97AC09 /* Pods_SmartList.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartList.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5765FC5C75D1D4BFEC6FC2C /* Pods_SmartList.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -44,6 +55,8 @@
 			children = (
 				10B51F54259E5D2200753DD2 /* SmartList */,
 				10B51F53259E5D2100753DD2 /* Products */,
+				960220654D3FFE871BB49FB1 /* Pods */,
+				6D775A14DD79EF2A6CB4C643 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -82,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				10B51F59259E5D2200753DD2 /* CategoryViewController.swift */,
+				106DA947259E6795004FACA9 /* ItemViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -90,8 +104,27 @@
 			isa = PBXGroup;
 			children = (
 				10B51F5E259E5D2200753DD2 /* SmartList.xcdatamodeld */,
+				106DA951259E87DE004FACA9 /* Category.swift */,
+				106DA954259E8871004FACA9 /* Item.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		6D775A14DD79EF2A6CB4C643 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D70F289E17B02881D97AC09 /* Pods_SmartList.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		960220654D3FFE871BB49FB1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				044175251ABBAF11B5E5D524 /* Pods-SmartList.debug.xcconfig */,
+				51B4681E131C61587CBA5946 /* Pods-SmartList.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -101,9 +134,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 10B51F69259E5D2400753DD2 /* Build configuration list for PBXNativeTarget "SmartList" */;
 			buildPhases = (
+				32EDD19EA42C7420BCF24E2E /* [CP] Check Pods Manifest.lock */,
 				10B51F4E259E5D2100753DD2 /* Sources */,
 				10B51F4F259E5D2100753DD2 /* Frameworks */,
 				10B51F50259E5D2100753DD2 /* Resources */,
+				04709D820756DE2AC5CA7BD5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -159,6 +194,48 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		04709D820756DE2AC5CA7BD5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartList/Pods-SmartList-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SmartList/Pods-SmartList-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SmartList/Pods-SmartList-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		32EDD19EA42C7420BCF24E2E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SmartList-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		10B51F4E259E5D2100753DD2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -166,8 +243,11 @@
 			files = (
 				10B51F5A259E5D2200753DD2 /* CategoryViewController.swift in Sources */,
 				10B51F60259E5D2200753DD2 /* SmartList.xcdatamodeld in Sources */,
+				106DA948259E6795004FACA9 /* ItemViewController.swift in Sources */,
 				10B51F56259E5D2200753DD2 /* AppDelegate.swift in Sources */,
+				106DA955259E8871004FACA9 /* Item.swift in Sources */,
 				10B51F58259E5D2200753DD2 /* SceneDelegate.swift in Sources */,
+				106DA952259E87DE004FACA9 /* Category.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -311,6 +391,7 @@
 		};
 		10B51F6A259E5D2400753DD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 044175251ABBAF11B5E5D524 /* Pods-SmartList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -330,6 +411,7 @@
 		};
 		10B51F6B259E5D2400753DD2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51B4681E131C61587CBA5946 /* Pods-SmartList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
